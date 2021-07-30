@@ -1,0 +1,7 @@
+{
+  "name": "fwt",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
