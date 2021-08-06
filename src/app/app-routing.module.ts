@@ -5,8 +5,9 @@ const routes: Routes = [
 
   {
     path: '',
-    loadChildren: () => import('./pages/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+    loadChildren: () => import('./pages/gaugetest/gaugetest.module').then( m => m.GaugetestPageModule)
   }
+
 
 ];
 @NgModule({

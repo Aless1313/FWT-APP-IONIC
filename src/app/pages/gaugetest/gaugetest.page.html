@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>GaugeTest</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!--MEDIDOR-->
+  <ngx-gauge
+  size="300"
+  type="arch" 
+  [value]="gaugeValue" 
+  label="Litros/Segundos"  
+  append="Lts"
+  min="0"
+  max="20"
+  cap="round"
+  thick="10"
+  foregroundColor="rgb(41, 59, 222)"
+  backgroundColor="rgb(255,255,255)"
+  duration="1000"
+  [thresholds]="thresholdConfig"
+  animate="true">
+  </ngx-gauge>
+  
+
+</ion-content>
